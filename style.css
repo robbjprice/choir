@@ -181,15 +181,15 @@ a {
   width: min(460px, 100%);
   padding: 34px;
   border-radius: 16px;
-  background: rgba(255, 255, 255, 0.94);
-  box-shadow: var(--shadow);
+  background: #ffffff;
+  box-shadow: 0 10px 30px rgba(21, 55, 102, 0.10);
 }
 .hero-logo-card img {
   width: 100%;
   max-width: 300px;
   display: block;
   margin: 0 auto 26px;
-  border-radius: 18px;
+  border-radius: 0;
 }
 
 .hero-pill-grid {
