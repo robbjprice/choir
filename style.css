@@ -192,51 +192,22 @@ a {
   margin: 0 auto 26px;
   border-radius: 0;
 }
-.ecosystem-card {
-  width: min(460px, 100%);
-  padding: 34px;
-  border-radius: 20px;
-  background: #ffffff;
-  color: var(--deep-navy);
-  box-shadow: 0 10px 30px rgba(21, 55, 102, 0.10);
-}
-
-.ecosystem-label {
-  margin: 0 0 22px;
-  color: var(--gold);
-  font-size: 0.82rem;
-  font-weight: 900;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-}
-
-.ecosystem-grid {
+.hero-statement {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
-  margin-bottom: 24px;
+  gap: 18px;
+  align-content: center;
 }
 
-.ecosystem-grid span {
-  padding: 16px;
-  border-radius: 12px;
+.hero-statement p {
+  margin: 0;
+  color: rgba(255,255,255,0.88);
+  font-size: clamp(1.6rem, 3vw, 3rem);
   font-weight: 850;
-  text-align: center;
-  background: #f3f8fd;
-  border: 1px solid rgba(31, 79, 143, 0.12);
+  letter-spacing: -0.04em;
+  border-bottom: 1px solid rgba(255,255,255,0.22);
+  padding-bottom: 14px;
 }
 
-.ecosystem-flow {
-  display: grid;
-  gap: 10px;
-}
-
-.ecosystem-flow span {
-  padding: 14px 16px;
-  border-left: 4px solid var(--gold);
-  background: #fff8ed;
-  font-weight: 800;
-}
 .hero-pill-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
