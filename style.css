@@ -179,20 +179,19 @@ a {
   align-items: center;
   justify-content: center;
 }
-
+.hero-logo-card {
+  width: min(460px, 100%);
+  padding: 34px;
+  border-radius: 36px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: var(--shadow);
+}
 .hero-logo-card img {
   width: 100%;
   max-width: 300px;
   display: block;
   margin: 0 auto 26px;
   border-radius: 18px;
-}
-
-.hero-logo-card img {
-  width: 100%;
-  max-width: 340px;
-  display: block;
-  margin: 0 auto 26px;
 }
 
 .hero-pill-grid {
