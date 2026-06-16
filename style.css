@@ -398,3 +398,55 @@ p {
     font-size: 3rem;
   }
 }
+/* ===== FedEMR Section ===== */
+
+.fedemr-strip {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 3rem;
+  align-items: center;
+
+  padding: 3rem;
+  margin: 4rem 0;
+
+  background: linear-gradient(
+    135deg,
+    rgba(255,255,255,0.95),
+    rgba(247,251,255,0.95)
+  );
+
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+}
+
+.fedemr-copy h2 {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.fedemr-logo-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2rem;
+  border-radius: 20px;
+  background: white;
+}
+
+.fedemr-logo-card img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+}
+
+@media (max-width: 900px) {
+  .fedemr-strip {
+    grid-template-columns: 1fr;
+  }
+
+  .fedemr-logo-card {
+    order: -1;
+  }
+}
