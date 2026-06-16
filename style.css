@@ -46,7 +46,12 @@ a {
   flex-direction: column;
   line-height: 1.1;
 }
-
+.logo-brand img {
+  width: 230px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 .brand-mark {
   font-size: 1.45rem;
   font-weight: 900;
@@ -133,11 +138,12 @@ a {
 }
 
 .hero h1 {
-  max-width: 880px;
+  max-width: 920px;
   margin: 0;
-  font-size: clamp(3rem, 7vw, 6.6rem);
-  line-height: 0.95;
-  letter-spacing: -0.06em;
+  font-size: clamp(2.7rem, 5.8vw, 5.4rem);
+  line-height: 1.04;
+  letter-spacing: -0.025em;
+  font-weight: 850;
 }
 
 .hero-text {
