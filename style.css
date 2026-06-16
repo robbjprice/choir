@@ -84,7 +84,7 @@ a {
   padding: 12px 20px;
   color: white !important;
   background: #f6a100;
-  border-radius: 8px;
+  border-radius: 16px;
   box-shadow: none;
 }
 
@@ -199,7 +199,7 @@ a {
   justify-content: center;
   min-height: 54px;
   padding: 12px;
-  border-radius: 10px;
+  border-radius: 16px;
   color: var(--deep-navy);
   font-weight: 850;
   background: #f3f8fd;
@@ -255,7 +255,7 @@ p {
   min-height: 210px;
   padding: 28px;
   border: 1px solid rgba(7, 26, 47, 0.08);
-  border-radius: 28px;
+  border-radius: 16px;
   background:
     linear-gradient(180deg, rgba(18, 184, 176, 0.08), transparent 42%),
     #ffffff;
@@ -282,13 +282,13 @@ p {
   gap: 18px;
   align-items: center;
   padding: 22px;
-  border-radius: 24px;
+  border-radius: 16px;
   background: white;
   box-shadow: 0 16px 36px rgba(7, 26, 47, 0.07);
 }
 
 .steps strong {
-  color: var(--teal);
+  color: var(--gold);
   font-size: 1.2rem;
 }
 
@@ -322,7 +322,7 @@ p {
 
 .join-cta {
   margin: 0 auto 80px;
-  border-radius: 36px;
+  border-radius: 16px;
   text-align: center;
   background: white;
   box-shadow: var(--shadow);
