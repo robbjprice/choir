@@ -152,12 +152,15 @@ a {
 }
 
 .button {
-  padding: 14px 22px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 800;
 }
 
 .button.primary {
   color: white;
-  background: var(--gold);
+  background: #f6a100;
+  border-radius: 8px;
   box-shadow: none;
 }
 
@@ -165,6 +168,8 @@ a {
   color: white;
   border: 1px solid rgba(255,255,255,0.35);
   background: rgba(255,255,255,0.12);
+  border-radius: 8px;
+  box-shadow: none;
 }
 
 .hero-panel {
