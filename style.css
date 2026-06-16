@@ -36,7 +36,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 18px 6vw;
+  padding: 10px 6vw;
   background: rgba(245, 251, 255, 0.88);
   backdrop-filter: blur(18px);
   border-bottom: 1px solid rgba(7, 26, 47, 0.08);
@@ -48,9 +48,8 @@ a {
   line-height: 1.1;
 }
 .logo-brand img {
-  width: 180px;
-  max-width: 100%;
-  height: auto;
+  height: 70px;
+  width: auto;
   display: block;
 }
 .brand-mark {
@@ -82,17 +81,11 @@ a {
 }
 
 .nav-button {
-  padding: 10px 18px;
+  padding: 12px 20px;
   color: white !important;
-  background: var(--gold);
+  background: #f6a100;
+  border-radius: 8px;
   box-shadow: none;
-}
-
-.nav-button {
-  padding: 10px 18px;
-  color: white !important;
-  background: linear-gradient(135deg, var(--deep-navy), var(--gold));
-  box-shadow: 0 10px 26px rgba(246, 161, 0, 0.25);
 }
 
 .hero {
@@ -182,7 +175,7 @@ a {
 .hero-logo-card {
   width: min(460px, 100%);
   padding: 34px;
-  border-radius: 36px;
+  border-radius: 16px;
   background: rgba(255, 255, 255, 0.94);
   box-shadow: var(--shadow);
 }
@@ -206,7 +199,7 @@ a {
   justify-content: center;
   min-height: 54px;
   padding: 12px;
-  border-radius: 999px;
+  border-radius: 10px;
   color: var(--deep-navy);
   font-weight: 850;
   background: #f3f8fd;
