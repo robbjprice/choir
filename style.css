@@ -84,7 +84,7 @@ a {
   padding: 12px 20px;
   color: white !important;
   background: #f6a100;
-  border-radius: 16px;
+  border-radius: 8px;
   box-shadow: none;
 }
 
@@ -300,7 +300,7 @@ p {
 .feature-section {
   color: white;
   background:
-    radial-gradient(circle at 78% 22%, rgba(124, 92, 255, 0.38), transparent 30%),
+    radial-gradient(circle at 78% 22%, rgba(246, 161, 0, 0.18), transparent 30%),
     linear-gradient(135deg, var(--navy), #0c3e68);
 }
 
