@@ -494,3 +494,24 @@ p {
     grid-template-columns: 1fr;
   }
 }
+.fedemr-benefit {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 18px;
+  background: rgba(31, 79, 143, 0.06);
+  border: 1px solid rgba(31, 79, 143, 0.12);
+}
+
+.fedemr-benefit h3 {
+  margin-bottom: 0.75rem;
+}
+
+.fedemr-benefit p:last-child {
+  margin-bottom: 0;
+}
+
+.fedemr-logo-card {
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+}
