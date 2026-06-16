@@ -37,9 +37,10 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 10px 6vw;
-  background: rgba(245, 251, 255, 0.88);
-  backdrop-filter: blur(18px);
-  border-bottom: 1px solid rgba(7, 26, 47, 0.08);
+
+  background: #ffffff;
+
+  border-bottom: 1px solid rgba(21, 55, 102, 0.08);
 }
 
 .brand {
