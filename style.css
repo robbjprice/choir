@@ -450,3 +450,47 @@ p {
     order: -1;
   }
 }
+.fedemr-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.fedemr-stats div {
+  padding: 1.25rem;
+  border-radius: 16px;
+  background: rgba(31, 79, 143, 0.06);
+  border: 1px solid rgba(31, 79, 143, 0.12);
+}
+
+.fedemr-stats strong {
+  display: block;
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--navy);
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.fedemr-stats span {
+  display: block;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.fedemr-logo-card p {
+  margin: 0 0 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--muted);
+}
+
+@media (max-width: 900px) {
+  .fedemr-stats {
+    grid-template-columns: 1fr;
+  }
+}
