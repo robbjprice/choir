@@ -238,6 +238,9 @@ a {
   gap: 56px;
   align-items: center;
 }
+.intro-grid > div:last-child {
+  padding-top: 2rem;
+}
 
 h2 {
   margin: 0;
